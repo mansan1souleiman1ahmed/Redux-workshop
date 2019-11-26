@@ -1,4 +1,6 @@
 import React, {Component} from "react";
+import MemeGenerator from "./meme-generator";
+import Header from "./header";
 
 export class ReduxClassBase extends Component {
     constructor(props) {
@@ -9,7 +11,14 @@ export class ReduxClassBase extends Component {
     render() {
         return (
             <div>
-                <h1>{"Class"}</h1>
+                <Header />
+                <div
+                    style={{
+                        marginTop: "20px",
+                        textAlign: "center",
+                    }}>
+                    <MemeGenerator />
+                </div>
             </div>
         );
     }

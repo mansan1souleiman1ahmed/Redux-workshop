@@ -66,3 +66,16 @@
         background-color: #b7a5b4;
     }
 }
+
+.container-flex-meme-generator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightcoral;
+    .img-meme {
+        padding: 10px;
+    }
+    .meme-generator {
+        font-size: 30px;
+    }
+}
